@@ -2,16 +2,17 @@ body {
     background-color: skyblue;
     margin: 0;
     padding: 0; 
+ 
 }
 h1 {
     display: block;
     text-align: center;
-    font-size: 75px;
+    font-size: 50px;
 }
 ul {
     list-style-type: none;
     display: block;
-    text-align: right;
+    text-align: center;
     padding: 20px;
     background-color: rgba(255,255,255,.3);
     border-radius: 5px;
@@ -25,8 +26,24 @@ li {
 li a {
     padding: 10px;
     text-decoration: none;
-    text-align: justify;
     color: black;
     display: inline-block; 
     font-size: 25px;
+}
+.container {
+    width: 100%; 
+    max-width: 980px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 5px;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+}
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+
 }
