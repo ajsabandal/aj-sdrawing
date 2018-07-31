@@ -47,7 +47,7 @@ p {
     font-size: 25px;
     font-family: sans-serif;
 }
-a {
+a:link {
     list-style-type: none;
     display: block;
     text-align: center;
@@ -56,6 +56,6 @@ a {
     border-radius: 5px;
     margin: 25px auto;
     width: 15%;
- 
 }
+
 
