@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
-
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 body {
     background-color:#96ceb4;
     margin: 0;
@@ -12,16 +19,14 @@ h1 {
     text-align: center;
     font-size: 50px;
     font-family: 'Lobster', cursive;
+    color: #666547;
 }
 ul {
     list-style-type: none;
     display: flex;
     padding: 20px;
-    background-color: rgba(255,255,255,.3);
+    background-color:#ffeead;
     border-radius: 5px;
-    margin: 25px auto;
-    width: 100%;
-    max-width: 980px;
     font-family: 'Fjalla One', sans-serif;
 
 }
@@ -29,7 +34,7 @@ ul {
 li a {
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: #666547;
     display: inline-block; 
     font-size: 25px;
 }
@@ -39,25 +44,45 @@ li a:hover {
 .container {
     width: 100%; 
     max-width: 980px;
-    margin: 25px auto;
-    padding: 100px;
-    background-color: rgba(255,255,255,.3);
+    margin: 0 auto;
+
+}
+.box-holder {
+    padding: 50px;
+    background-color: #ffeead;
     border-radius: 5px;
+    margin: 25px 0;
+    display: block;
+}
+.image-holder {
+    width: 100%;
+}
+.image-holder img{
+    width: 20%;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+    float: left;    
 }
 p {
     text-align: center;
     font-size: 25px;
     font-family: sans-serif;
+    color: #666547;
 }
 .about-me-main {
    display: flex;
    align-items: center;
 }
 .about-me-image {
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
     border-radius: 100%;
     margin-left: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  #ffeead;
 }
 
 
