@@ -49,6 +49,15 @@ p {
     font-size: 25px;
     font-family: sans-serif;
 }
-
+.about-me-main {
+   display: flex;
+   align-items: center;
+}
+.about-me-image {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
 
 
