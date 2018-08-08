@@ -58,10 +58,10 @@ li a:hover {
     width: 100%;
 }
 .image-holder img{
-    width: 20%;
+    width: calc(20%-10px);
     height: 150px;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     vertical-align: bottom;
     float: left;    
 }
